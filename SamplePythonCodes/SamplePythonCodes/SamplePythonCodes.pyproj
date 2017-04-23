@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2b4212a4-f62d-4478-9d5e-6bb813d84399</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>SamplePythonCodes.py</StartupFile>
+    <StartupFile>FirstPythonProgram.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="FirstPythonProgram.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="SamplePythonCodes.py" />
   </ItemGroup>
   <PropertyGroup>
